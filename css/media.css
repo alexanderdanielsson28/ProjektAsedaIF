@@ -1,0 +1,1002 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor Alla sidor */
+
+#header {
+    background-image: url(../pictures/bg_grass.jpg);
+    opacity: 0.9;
+}
+
+#header {
+    background-color: white;
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+}
+
+html {
+    background-image: url("../pictures/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    width: auto;
+}
+
+#header h1 {
+    padding-left: 44%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: white;
+}
+
+#header h3 {
+    margin-left: 43.5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+#footer {
+    margin-top: 100%;
+    height: 60px;
+    width: auto;
+}
+
+#footer h3 {
+    padding-top: 13px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 15px;
+}
+
+#footertext {
+    width: auto;
+    padding-left: 43%;
+}
+
+article {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    /*background-color: white;*/
+}
+
+
+/* Index Index Index Index Index Index Index Index Index Index Index Index Index Index Index */
+
+#art {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#pet {
+    text-align: center;
+    color: white;
+}
+
+.fb-like {
+    margin-left: 60%;
+    position: fixed;
+}
+
+#fb {
+    background-color: wihte;
+    width: 25px;
+    height: 25px;
+    ;
+    position: fixed;
+    margin-right: 50%;
+}
+
+#u_0_3 {
+    display: none;
+}
+
+
+/*css for forms in contact.html*/
+
+
+/*
+input.invalid,
+textarea.invalid {
+    border: 2px solid red;
+}
+
+input.valid,
+textarea.valid {
+    border: 2px solid green;
+}
+
+#contact label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    float: left;
+}
+
+#contact_submit {
+    padding-left: 100px;
+}
+
+#contact div {
+    margin-top: 1em;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.error {
+    display: none;
+    margin-left: 10px;
+}
+
+#valid {}
+
+.error_show {
+    color: red;
+    margin-left: 10px;
+}
+
+input.invalid,
+textarea.invalid {
+    border: 2px solid red;
+    background-image: url("../pictures/invalid.png");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: right;
+}
+
+input.valid,
+textarea.valid {
+    border: 2px solid green;
+    background-image: url("../pictures/valid.png");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: right;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 250px;
+}
+
+#con_message {
+    margin-bottom: 20px;
+}
+
+
+/* POLICYSITE  POLICYSITE  POLICYSITE  POLICYSITE  POLICYSITE  POLICYSITE  POLICYSITE  POLICYSITE  */
+
+#policyinnehall {
+    padding: 0px 25px 0px 25px;
+}
+
+#str {
+    font-weight: bold;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+#first {
+    padding: 15px 15px;
+}
+
+#second {
+    padding: 15px 15px;
+}
+
+#third {
+    padding: 15px 15px;
+}
+
+#over {
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#fourth {
+    padding: 15px 15px;
+}
+
+.lists {
+    padding: 5px 35px 5px 35px;
+    list-style-type: disc;
+}
+
+.liulett {
+    padding: 3px 3px;
+}
+
+#over2 {
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#fifth {
+    padding: 15px 15px;
+}
+
+.bildflera {
+    background-image: url("../pictures/myrvalla02.jpg");
+    background-repeat: no-repeat;
+}
+
+#aside {
+    margin: 70px;
+    padding: 50px 50px 10px 50px;
+    border: 1px solid black;
+}
+
+#aside1 {
+    width: auto;
+    margin: 70px;
+    padding: 50px 50px 10px 50px;
+    border: 1px solid black;
+}
+
+#bilden {
+    width: 55px;
+    height: 55px;
+}
+
+.listen {
+    list-style-type: disc;
+    padding: 5px 15px 5px 25px;
+}
+
+#kalle {
+    font-weight: bold;
+    padding: 10px 10px 0px 10px;
+}
+
+#seces {
+    margin-bottom: 40px;
+    width: 600px;
+    border: 0px;
+    opacity: 1;
+}
+
+#sece {
+    border: 1px solid black;
+}
+
+#nyaart {
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#match {
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    float: left;
+    border: 1px solid black;
+}
+
+#twoinone {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+
+#artherr {
+    background-color: rgb(235, 235, 235);
+}
+
+#imagen {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#fboverlay {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#head4 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#head44 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#back {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#head3 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#headboll {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(200, 200, 235);
+}
+
+.gro {
+    background-color: gray;
+}
+
+#train {
+    padding: 5px;
+    font-weight: bold;
+    background-color: gray;
+}
+
+#barnh2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#barn3 {
+    padding: 5px;
+    font-size: 17px;
+}
+
+#pbarn {
+    width: auto;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#alle {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#olikal {
+    padding: 10px;
+    width: auto;
+    line-height: 20px;
+}
+
+#damerna {
+    font-style: italic;
+    padding: 3px;
+}
+
+#bordern {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: rgb(175, 175, 175);
+}
+
+#paran {
+    border: 1px solid black;
+    margin: 3px;
+    background-color: rgb(235, 235, 235);
+}
+
+#ark {
+    background-color: rgb(250, 250, 250);
+    border: 2px solid;
+    border-color: black;
+    font-family: sans-serif;
+}
+
+#policen {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lag {
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+    background-color: rgb(220, 220, 220);
+}
+
+.lag:hover {
+    background-repeat: no-repeat;
+    -webkit-transform: scale(1.25);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.25);
+    /* Firefox */
+    -ms-transform: scale(1.25);
+    /* IE 9 */
+    -o-transform: scale(1.25);
+    /* Opera */
+    transform: scale(1.25);
+}
+
+
+/*Lek*/
+
+#ferjealex {
+    width: 107px;
+}
+
+#ferjealex:hover {
+    background-image: url(../pictures/molvakt.png);
+}
+
+#zlatan {
+    width: 85px;
+}
+
+#zlatan:hover {
+    background-image: url(../pictures/karls.png);
+}
+
+#bollkalle {
+    width: 140px;
+}
+
+#bollkalle:hover {
+    background-image: url("../pictures/bolle.png");
+}
+
+#Ronaldinho {
+    width: 87px;
+}
+
+#Ronaldinho:hover {
+    background-image: url("../pictures/peterols.png");
+}
+
+#ola {
+    width: 100px;
+}
+
+#ola:hover {
+    background-image: url("../pictures/olas.png");
+}
+
+#magnus {
+    width: 115px;
+}
+
+#magnus:hover {
+    background-image: url("../pictures/magnus.png");
+}
+
+.lag:hover {
+    color: white;
+    width: 150px;
+    height: 150px;
+}
+
+#nils {
+    width: 95px;
+}
+
+#nils:hover {
+    background-image: url("../pictures/nilsen.png");
+}
+
+#bert {
+    width: 105px;
+}
+
+#bert:hover {
+    background-image: url("../pictures/bertbert.png");
+}
+
+#ronaldo {
+    width: 115px;
+}
+
+#ronaldo:hover {
+    background-image: url("../pictures/ronaldo.png");
+}
+
+#per {
+    width: 105px;
+}
+
+#per:hover {
+    background-image: url("../pictures/permagnus.png");
+}
+
+#pelle {
+    width: 90px;
+}
+
+#pelle:hover {
+    background-image: url("../pictures/jonsson.png");
+}
+
+#kristoffer {
+    width: 115px;
+}
+
+#kristoffer:hover {
+    background-image: url("../pictures/krisse.png");
+}
+
+#bertil {
+    width: 115px;
+}
+
+#bertil:hover {
+    background-image: url("../pictures/bertilo.png");
+}
+
+#trenare {
+    width: 110px;
+}
+
+#trenare:hover {
+    background-image: url("../pictures/trenare2.png");
+}
+
+#krister {
+    width: 110px;
+}
+
+#krister:hover {
+    background-image: url("../pictures/krister01.png");
+}
+
+table thead tr td {
+    padding: 5px;
+}
+
+tr td {
+    padding: 5px;
+}
+
+#resultat {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#chall {
+    font-style: italic;
+}
+
+#formBox {
+    padding-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hej15 {
+    background-color: gray;
+}
+
+#lagsvag {
+    border: 1px solid black;
+    background-color: rgb(145, 145, 195);
+}
+
+
+/**Knatte sidan*/
+
+#knatte {
+    width: 500px;
+    /*background-color: white;*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#knatte img {
+    box-shadow: 25px 25px 15px black;
+    background-repeat: no-repeat;
+    background-size: 350px 200px;
+    margin-top: 10px;
+    margin-right: 100%;
+}
+
+#knatteArticle {
+    background-color: white;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: silver;
+}
+
+#knatteArticle h2 {
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+#fair {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-style: oblique;
+    padding-left: 5px;
+    font-size: large;
+}
+
+#textbox {
+    width: 400px;
+    margin-left: 30%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+#textBoxH {
+    color: green;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 28%;
+}
+
+#textbox ul li {
+    margin-top: 20px;
+    background-image: url('../pictures/football.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-left: 19px;
+}
+
+
+/* Damlag Damlag Damlag Damlag Damlag Damlag Damlag Damlag Damlag Damlag Damlag Damlag Damlag */
+
+.lag1 {
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+    background-color: rgb(220, 220, 220);
+}
+
+.lag1:hover {
+    background-repeat: no-repeat;
+    -webkit-transform: scale(1.25);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.25);
+    /* Firefox */
+    -ms-transform: scale(1.25);
+    /* IE 9 */
+    -o-transform: scale(1.25);
+    /* Opera */
+    transform: scale(1.25);
+    color: white;
+    width: 120px;
+    height: 120px;
+}
+
+#trenare1 {
+    width: 84px;
+}
+
+#trenare1:hover {
+    background-image: url("../pictures/majaekman.png");
+}
+
+#Petra {
+    width: 112px;
+}
+
+#Petra:hover {
+    background-image: url("../pictures/petra1.png");
+}
+
+#Stina {
+    width: 104px;
+}
+
+#Stina:hover {
+    background-image: url("../pictures/stina1.png");
+}
+
+#Kajsa {
+    width: 92px;
+}
+
+#Kajsa:hover {
+    background-image: url("../pictures/kajsa1.png");
+}
+
+#emma {
+    width: 109px;
+}
+
+#emma:hover {
+    background-image: url("../pictures/emma1.png");
+}
+
+#maria {
+    width: 92px;
+}
+
+#maria:hover {
+    background-image: url("../pictures/maria1.png");
+}
+
+#milan {
+    width: 84px;
+}
+
+#milan:hover {
+    background-image: url("../pictures/milan1.png");
+}
+
+#birgitta {
+    width: 110px;
+}
+
+#birgitta:hover {
+    background-image: url("../pictures/birgitta1.png");
+}
+
+#stina1 {
+    width: 75px;
+}
+
+#stina1:hover {
+    background-image: url("../pictures/stina2.png");
+}
+
+#kristina {
+    width: 125px;
+}
+
+#kristina:hover {
+    background-image: url("../pictures/kristina1.png");
+}
+
+#jasmin {
+    width: 80px;
+}
+
+#jasmin:hover {
+    background-image: url("../pictures/jasmin1.png");
+}
+
+#petra1 {
+    width: 93px;
+}
+
+#petra1:hover {
+    background-image: url("../pictures/petra2.png");
+}
+
+#jasmin1 {
+    width: 112px;
+}
+
+#jasmin1:hover {
+    background-image: url("../pictures/jasmin2.png");
+}
+
+#ebba {
+    width: 72px;
+}
+
+#ebba:hover {
+    background-image: url("../pictures/ebba1.png");
+}
+
+#valencia {
+    width: 135px;
+}
+
+#valencia:hover {
+    background-image: url("../pictures/valencia1.png");
+}
+
+.fb-like {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#lankanmalan {
+    margin-top:10px;
+   text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    margin-left:20%;
+    padding-bottom: 29px;
+     
+}
+
+#lankanmalan a {
+    text-decoration: none;
+    font-size:20px;
+}    
+
+#sidebaren {
+    margin-left:100px;
+}
+#indexBox{
+    background-color:white;
+     width: 500px;
+    /*background-color: white;*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+}
+#indexBox h1{
+      font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+#indexBox p{
+    padding-left:10px;
+    padding-right:5px;
+}

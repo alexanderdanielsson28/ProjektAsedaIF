@@ -1,0 +1,137 @@
+
+
+
+.error {
+   color: #ff0000;
+   font-size: 12px;
+   margin-top: 5px;
+   margin-bottom: 0;
+}
+
+.inputTxtError {
+   border: 1px solid #ff0000;
+   color: #0e0e0e;
+}
+
+
+
+
+.styled {
+    font-family: Arial, sans-serif;
+    
+}
+.styled fieldset {
+    background:white;
+    width:260px;
+    border: 1px solid black; padding: 10px;
+    
+}
+.styled fieldset legend {
+    
+    font-size: 14px; font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    background: #fff; display: block;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    
+}
+.styled fieldset ol, .styled fieldset ol li {
+    list-style: none;
+    
+}
+.styled fieldset li.form-row {
+    margin-bottom: 3px;
+    padding: 2px 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+ 
+    
+}
+.styled label {
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+    float: left; width: 200px;
+    margin-left: 5px;
+    line-height: 24px;
+    
+}
+.styled input.text-input, .styled .text-area {
+    background: #fefefe;
+    border-top: 1px solid #909090;
+    border-right: 1px solid #cecece;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #bbb;
+    padding: 3px; width: 220px;
+    font-size: 12px;
+    
+}
+.styled input.text-input.default.active, .styled .text-area.default.active {
+    color: black;
+    font-style: italic;
+    
+}
+.styled fieldset li.button-row {
+    margin-bottom: 0;
+    padding: 2px 5px;
+    
+}
+form input.btn-submit {
+    padding: 3px 7px;
+    font-family: Arial, sans-serif;
+    color: black; font-weight: bold;
+    border: 1px solid gray;
+    background: silver;
+    font-size: 12px;
+    
+}
+
+/* Form  */
+.styled span.error {
+    font-size: 11px;
+    background: none;
+    display: block;
+    padding: 2px;
+    text-align: center;
+   
+    
+}
+.styled fieldset li.error {
+    border: 1px solid;
+    border-color:#D8000C;
+    
+    background: url(../pictures/invalid.png) no-repeat;
+    background-size:10px 10px;
+    background-position:100% 50%;
+    border: 1px solid #f9c7c7;
+    padding: 5px 0;
+    
+}
+.styled fieldset li.error label {
+    text-align: left;
+    
+}
+
+
+#form-contact {
+    width: 360px; margin: 0 auto;
+}
+
+.success {
+    order: 1px solid;
+    margin: 0;
+    padding: 10px; text-align: center;
+    color: #4F8A10;
+    background-color: #ebf6d9;
+    border-color:black; 
+}
+.styled fieldset li.valid {
+    background:url(../pictures/valid.png) no-repeat;
+    background-size:10px 10px;
+    background-position:100% 50%;
+       
+    
+}
