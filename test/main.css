@@ -3,30 +3,34 @@
 
 /*Styling till rss flödet/boxen*/
 .example{
+    margin-left:auto;
+    margin-right:auto;
     background-image:url("../pictures/m.jpg");
-    width:290px;
-    border:1px white solid;
-    margin:20px auto;padding:15px;
-    float:left;
+    max-width:500px;
+    border:5px solid;
+    border-color:silver;
+    /*margin:20px auto;padding:15px;*/
     margin-top:1px;
-    margin-left:10px;
+    
+ 
 
     
 }
 .example p{
     font-size:19px;
-    font-family: 'Lora', serif;
-    padding-left:16px;
+    /*font-family: 'Lora', serif;*/
+    /*padding-left:16px;*/
     
 }
 
 
 
 .post_results {
-
+    /*margin-right:100px;*/
+    padding-right: 25px;
     margin: 5px;
 
-    width: 130px;
+    width: 150px;
 
     border:1px solid #444;
 
@@ -35,7 +39,9 @@
 }
 
 .post_results ul {
-
+    margin-left:auto;
+    margin-right:auto;
+    width:177px;
     list-style:none;
 
     text-align:left;
@@ -64,7 +70,7 @@
 
     background: linear-gradient(top, #555555 0%,#444444 100%); /* W3C */
 
-    height: 63px;
+    height: 83px;
 
     padding: 10px;
 
@@ -91,7 +97,7 @@
     text-decoration: none;
 
     margin-bottom:2px;
-    font-family: 'Lora', serif;
+    /*font-family: 'Lora', serif;*/
 
 }
 
@@ -109,5 +115,11 @@
 
     margin: 0;
     display:block;
+    padding-top:1px;
 
+}
+#post_results1{
+    margin-left:15%;
+    margin-right:auto;
+   
 }

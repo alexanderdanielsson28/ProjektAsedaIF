@@ -4,80 +4,143 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- utf-8 svensk -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- viewport -->
     <title>Åseda Sport</title>
-    <!-- titeln på hemsidan -->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="css/headers.css">
     <link rel="stylesheet" media="only screen and (max-width:480px)" href="css/mobile.css">
     <link rel="icon" href="pictures/aseda.png" sizes="16x16" type="image/png">
     <link rel="shortcut icon" href="pictures/aseda.png" sizes="16x16" type="image/png">
     <link rel="apple-touch-icon" href="pictures/aseda.png" sizes="120x120" type="image/png">
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="css/media.css">
-    <!-- länk till stylesheet css för att anpassa till width 480px  -->
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="menu.css">
-    <!-- länk till stylesheet css för att anpassa till width 480px  -->
-    <link rel="stylesheet" type="text/css" href="test/main.css" />
-    <script type="text/javascript" src="test/main.js"></script>
+    <!--<link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="menu.css">-->
+
+
 </head>
 
 <body>
-    <div id="header">
-        <h1 id="h1tag">Åseda IF</h1>
-        <h3 class="hidden">-En förening att växa i</h3>
-    </div>
-    <div id="meny">
-        <div id="meny2">
-            <nav id="navigation">
-                <ul>
-                    <li><a class="klass" href="index.html">Hem</a></li>
-                    <li><a class="klass" href="html/Damlag.html">Damlag</a></li>
-                    <li><a class="klass" href="html/Herrlag.html">Herrlag</a></li>
-                    <li><a class="klass" href="html/Knattelag.html">Knattelag</a></li>
-                    <li><a class="klass" href="html/Kontakt.html">Kontakt</a></li>
-                    <li><a class="klass" href="html/Policy.html">vår policy</a></li>
-                </ul>
-            </nav>
-
-        </div>
-    </div>
-
-    <main id="container">
-
-        <article id="sidebaren">
-            <div class="example">
-                <p>Följ allt inom fotbollsvärlden här!</p>
-                <div class="post_results" id="post_results1" rss_num="8" rss_url="http://www.aftonbladet.se/sportbladet/fotboll/rss.xml">
-                    <div class="loading_rss">
-                        <img alt="Loading..." src="images/loading.gif" />
-                    </div>
+    <div id="background">
+        <div id="content">
+            <div id="header">
+                <div id="backgroundHeader">
+                    
                 </div>
-                <div class="post_results" id="post_results2" rss_num="8" rss_url="http://svenskfotboll.se/?rss=1">
-                    <div class="loading_rss">
-                        <img alt="Loading..." src="images/loading.gif" />
-                    </div>
-                </div>
-                <div style="clear:both;"></div>
             </div>
-        </article>
+            
+            <div id="menuForBiggerDevice">
+                <div id="nav">
+                    <li class="current"><a class="klass" href="index.html">Hem</a></li>
+                    <li class="varaLag"><a href="">Våra lag</a>
 
-      
+                        <ul class="lagDrop">
+                            <li class="reshow"><a href="html/Herrlag.html">Herrlag</a>
+
+                                <ul class="lagDrop">
+                                    <li class="reshow"><a href="html/herrTabell.html">Serietabell</a></li>
+
+                                </ul>
+
+                            </li>
+                            <li class="reshow"><a href="html/Damlag.html">Damlag</a>
+                                <ul class="lagDrop">
+                                    <li class="drop"><a href="html/tableDamer.html">Serietabell</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="reshow"><a href="html/Knattelag.html">Knattelag</a></li>
+                            <!--<li class="current"><a href="html/Knattelag.html">Knattelag</a></li>-->
+
+                        </ul>
+
+                    </li>
+                    <li><a class="klass" href="html/Policy.html">Vår policy</a></li>
+                    <li><a href="html/news.html">Senaste nytt</a></li>
+
+                    <li><a class="klass" href="html/Kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menuForMobil">
+                <div id="demo">
+                    <div class="wrapper">
+                        <div class="cont">
+
+
+                            <ul id="nav">
+                                <li class="current"><a class="klass" href="index.html">Hem</a></li>
+                                <li class="reshow"><a class="klass" href="html/Herrlag.html">Herrlag</a></li>
+                                <li class="reshow"><a class="klass" href="html/Damlag.html">Damlag</a></li>
+                                <li class="reshow"><a class="klass" href="html/Knattelag.html">Knattelag</a></li>
+                                <li><a class="klass" href="html/Policy.html">Vår policy</a></li>
+                                <li><a class="klass" href="html/news.html">Nyheter</a></li>
+                                <li><a class="klass" href="html/Kontakt.html">Kontakt</a></li>
+
+
+                            </ul>
+                        </div>
+                        <div class="parent"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--<div id="main">-->
+
+            <!--</div>-->
+
+
+
+
+            <article id="knatteArticle1">
 
 
 
 
 
-    </main>
+                <div id="textindex">
+                    <div id="fair">Åseda IF</div>
+                    <p> har som övergripande målsättning att kunna erbjuda en god bredd- och elit ungdomsverksamhet. att alla människor, oavsett ras, språk, religion, nationalitet eller hudfärg har lika rättigheter och skyldigheter i fotbollsverksamheten.
+                        att främja de sociala banden mellan föreningen, ledare, barn och föräldrar. att utveckla barnens fysiska och mentala nivå för rent spel samt uppfostra dem till att ta ansvar för sig själva, föreningen och samhället. att erbjuda
+                        barnen/ungdomarna en bred fotbollsverksamhet och etablera så många ungdomslag som möjligt så att alla får spela. att barnens utveckling, både som individer och som spelare, kommer i första hand och inte lagets resultat. SFK har
+                        krav på FOTBOLL FÖRÄLDRARNA, dessa regler vill vi att ni följer upp.</p>
 
-    <div id="footer">
-        <div id="footertext">
-            <h3>Copyright © 2006-2015 Åseda IF.</h3>
-            <h3>En ideell förening </h3>
+                    <div id="fair">”Är du bra fotbollsförälder?”</div>
+
+                    <p>Föräldrar skall alltid uppmuntra till rent spel samt uppskatta och trösta såväl med- som motspelare. Heja på laget och stötta barnen vid motgångar. Föräldrarna skall göra klart för barnen att det är domaren som bestämmer. Ett riktigt
+                        uppträdande är lika viktigt som fotbollskunnande i ungdomsfotbollen. Som förälder förväntar vi oss att du ställer upp som ledare, finns ingen förälder som hjälper till, kan vi inte garantera ditt barn plats i SFK Under första terminen
+                        är syftet att ”väcka fotbollsintresset hos barnen”. Pojkar/Flickor födda 2008</p>
+                    <div id="loggaindex"></div>
+
+                </div>
+                <div id="footer">
+                    <div class="footerBox">    
+                    <ul class="fotterOl">
+                        <p>Har du andra funderingar eller frågor:Maila till:</p>
+                        <li>ch.hagstrom@hotmail.com</li>
+                        <li>info@asedaif.com</li>
+                        <li>Ring: Christer 0703518405</li>
+
+                    </ul>
+
+
+                    <ul class="fotterOl">
+                        <p> Eller skicka ett vanligt brev</p>
+
+                        <li> Åseda IF Fotboll </li>
+                        <li>Östra Esplanaden 14 36070 ÅSEDA</li>
+                    </ul>
+                    <!--<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>-->
+
+                    </div>
+                </div>
+            </article>
+
+
+
+
+
         </div>
     </div>
-    <script type="text/javascript" src="menu.js"></script>
-    <script type="text/javascript" src="javascript/script.js"></script>
-
+    <!--<script type="text/javascript" src="menu.js"></script>-->
 </body>
 
 </html>

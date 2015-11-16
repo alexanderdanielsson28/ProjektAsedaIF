@@ -22,8 +22,10 @@
 }
 .styled fieldset {
     background:white;
-    width:260px;
+    max-width:260px;
     border: 1px solid black; padding: 10px;
+        margin-left: auto;
+    margin-right: auto;
     
 }
 .styled fieldset legend {
@@ -117,7 +119,13 @@ form input.btn-submit {
 
 
 #form-contact {
-    width: 360px; margin: 0 auto;
+ 
+    /*width: 360px; margin: 0 auto;*/
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+}
+#formett{
+    /*margin-top:200px;*/
 }
 
 .success {

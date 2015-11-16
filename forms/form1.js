@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
 	$('.btn-submit').click(function(e){
 		var $formId = $(this).parents('form');
 		var formAction = $formId.attr('action');
-		defaulttextRemove();
+ 		defaulttextRemove();
 		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 		var phoneReg = /^(0)\s*(7[0236])\s*(\d{4})\s*(\d{3})$/;
 		var nameReg=/^[a-öA-Ö]{1,40}$/;
@@ -63,17 +63,17 @@ jQuery(document).ready(function($) {
 			}
 	}else{
 	    			$parentTag.removeClass('valid').addClass('error').append('<span class="error">Vänligen fyll i fältet</span>');
-		
+					
 	}		
 		});
 		if ($('span.error').length == "0") {
 		
-			$('fieldset',$formId).hide();
-			$.post(formAction, $formId.serialize(),function(data){
+		//	$('fieldset',$formId).hide();
+		// 	$.post(formAction, $formId.serialize(),function(data){
 		
-				$formId.append(data).fadeIn();
-			});
-		}
+		// 		$formId.append(data).fadeIn();
+		// 	});
+		 }
 		e.preventDefault();
 	});
 });

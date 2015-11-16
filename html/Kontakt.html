@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>kontaktsidan</title>
+    <title>news</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="only screen and (max-width:480px)" href="../css/mobile.css">
@@ -10,89 +10,152 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="../forms/form1.js"></script>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="../menu.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="../css/headers.css">
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:480px)" href="../css/media.css">
     <script src="../menu.js"></script>
-
+    <!--<script src="../jquery.js"></script>-->
 
 </head>
 
 <body>
-    <div id="header">
-        <h1 id="h1tag">Åseda IF</h1>
-        <h3 class="hidden">-Våga ta kontakt!</h3>
-    </div>
-    <div id="meny">
-        <div id="meny2">
-            <nav id="navigation">
-                <ul>
-                    <li><a class="klass" href="../index.html">Hem</a></li>
-                    <li><a class="klass" href="../html/Damlag.html">Damlag</a></li>
-                    <li><a class="klass" href="../html/Herrlag.html">Herrlag</a></li>
-                    <li><a class="klass" href="../html/Knattelag.html">Knattelag</a></li>
-                    <li><a class="klass" href="../html/Kontakt.html">Kontakt</a></li>
-                    <li><a class="klass" href="../html/Policy.html">vår policy</a></li>
-                </ul>
-            </nav>
+    <div id="background">
+        <div id="content">
+            <div id="header">
 
-        </div>
-    </div>
-    <article id="ark">
-        <div id="bordern">
-            <h2 id="barnh2">Intresseanmälan</h2>
-            <h3 id="barn3">På den här sidan anmäler du dig som är intresserad för provtagning till våra fotbollslag.</h3>
-        </div>
-        <div id="paran">
-            <p id="pbarn">2009 fick vi ett genombrott i Åseda If, allt fler spelare sökte sig till klubben vilket resulterade i ett A-lag och B-lag. Båda lagen var starka och självständiga vilket fick yngre intresserade. Detta resulterade i att det skapades först ett
-                lag för barn i olika åldrar men framtiden var vid vår tröskel, nu har vi ett lag per årskull och vi är en av de mest framgångsriks fotbolls klubbarna i Sverige</p>
-            <p id="alle">I dagsläget har vi en gynnande klubb som har nog med resurser för att kunna erbjuda alla en bra miljö att utvecklas i samtidigt en miljö som är trevlig för stora som små.</p>
-            <p id="olikal">Vi tycker det är oerhört viktigt att vi har spelare som kommer från andra länder för att träna tillsammans med oss och som har slutit sig med klubben.</p>
-            <p id="damerna">Damer och herrar, pojkar som flickor i alla åldrar är välkomna</p>
-        </div>
-    </article>
+            </div>
+  <div id="menuForBiggerDevice">
+           
+            <ul id="nav">
+                <li class="drop"><a class="klass" href="../index.html">Hem</a></li>
+                <li ><a href="">Våra lag</a>
+                    <ul>
+                        <li><a href="Herrlag.html">Herrlag</a>
+                            <ul>
+                                <li class="drop"><a href="herrTabell.html">Serietabell</a></li>
 
-    <article id="formBox">
+                            </ul>
 
-        <form id="form-contact" class="styled" action="" method="">
-            <fieldset id="#formett">
+                        </li>
+                        <li><a href="Damlag.html">Damlag</a>
+                            <ul>
+                                <li class="drop"><a href="tableDamer.html">Serietabell</a></li>
 
-                <ol>
-                    <li class="form-row">
-                        <label>Förälderns namn:</label>
-                        <input id="input-name" type="text" class="text-input required fname default" name="fname" value="" title="ex.Stina" />
-                    </li>
+                            </ul>
+                        </li>
+                        <li><a href="Knattelag.html">Knattelag</a>
+                        </li>
+                       
 
-                    <li class="form-row">
-                        <label>Barnets namn:</label>
-                        <input id="input-name1" type="text" class="text-input required kname default" name="kname" value="" title="ex.Alex" />
-                    </li>
+                    </ul>
+                </li>
+                <li><a class="klass" href="Policy.html">Vår policy</a></li>
+                <li><a href="news.html">Senaste nytt</a></li>
 
-                    <li class="form-row">
-
-                        <label>Email:</label>
-                        <input id="input-email" type="text" class="text-input required email default" name="email" value="" title="ex.stina@hotmail.com" />
+                <li class="current"><a class="klass" href="Kontakt.html">Kontakt</a></li>
+            </ul>
+            </div>
+                  <div id="menuForMobil">
+                <div id="demo">
+                    <div class="wrapper">
+                        <div class="cont">
 
 
+                            <ul id="nav">
+                                <li class="current"><a class="klass" href="../index.html">Hem</a></li>
+                                <li class="reshow"><a class="klass" href="Herrlag.html">Herrlag</a></li>
+                                <li class="reshow"><a class="klass" href="Damlag.html">Damlag</a></li>
+                                <li class="reshow"><a class="klass" href="Knattelag.html">Knattelag</a></li>
+                                <li><a class="klass" href="Policy.html">Vår policy</a></li>
+                                <li><a class="klass" href="news.html">Nyheter</a></li>
+                                <li><a class="klass" href="Kontakt.html">Kontakt</a></li>
 
-                    </li>
-                    <li class="form-row">
-                        <label>Mobil nummer:</label>
-                        <input id="input-phone" type="text" class="text-input required phone default " name="phone" value="" title="0701234567" />
-                    </li>
-                    <li class="form-row">
-                        <label>Meddelande:</label>
-                        <textarea id="input-message" class="text-area" name="message" cols="40" rows="8" placeholder="Frivilligt-Om ditt barn har någon sjukdom som vi borde veta om!"></textarea>
-                    </li>
-                    <li class="button-row text-right">
-                        <input class="btn-submit" type="submit" value="submit" name="submit" />
-                    </li>
-                </ol>
-            </fieldset>
-        </form>
-    </article>
-    <div id="footer">
-        <div id="footertext">
-            <h3>Copyright © 2006-2015 Åseda IF.</h3>
-            <h3>En ideell förening </h3>
+
+                            </ul>
+                        </div>
+                        <div class="parent"></div>
+                    </div>
+                </div>
+            </div>  
+
+            <article id="knatteArticle1">
+                <div id="textindexdam">
+                    <article id="ark">
+                        <div id="bordern">
+                            <h2 id="barnh2">Intresseanmälan</h2>
+                            <h3 id="barn3">På den här sidan anmäler du dig som är intresserad för provtagning till våra fotbollslag.</h3>
+                        </div>
+                        <div id="paran">
+                            <p id="pbarn">2009 fick vi ett genombrott i Åseda If, allt fler spelare sökte sig till klubben vilket resulterade i ett A-lag och B-lag. Båda lagen var starka och självständiga vilket fick yngre intresserade. Detta resulterade i att det
+                                skapades först ett lag för barn i olika åldrar men framtiden var vid vår tröskel, nu har vi ett lag per årskull och vi är en av de mest framgångsriks fotbolls klubbarna i Sverige</p>
+                            <p id="alle">I dagsläget har vi en gynnande klubb som har nog med resurser för att kunna erbjuda alla en bra miljö att utvecklas i samtidigt en miljö som är trevlig för stora som små.</p>
+                            <p id="olikal">Vi tycker det är oerhört viktigt att vi har spelare som kommer från andra länder för att träna tillsammans med oss och som har slutit sig med klubben.</p>
+                            <p id="damerna">Damer och herrar, pojkar som flickor i alla åldrar är välkomna</p>
+                        </div>
+                    </article>
+                    <form id="form-contact" class="styled" action="" method="">
+                        <fieldset id="formett">
+
+                            <ol>
+                                <li class="form-row">
+                                    <label>Förälderns namn:</label>
+                                    <input id="input-name" type="text" class="text-input required fname default" name="fname" value="" title="ex.Stina" />
+                                </li>
+
+                                <li class="form-row">
+                                    <label>Barnets namn:</label>
+                                    <input id="input-name1" type="text" class="text-input required kname default" name="kname" value="" title="ex.Alex" />
+                                </li>
+
+                                <li class="form-row">
+
+                                    <label>Email:</label>
+                                    <input id="input-email" type="text" class="text-input required email default" name="email" value="" title="ex.stina@hotmail.com" />
+
+
+
+                                </li>
+                                <li class="form-row">
+                                    <label>Mobil nummer:</label>
+                                    <input id="input-phone" type="text" class="text-input required phone default " name="phone" value="" title="0701234567" />
+                                </li>
+                                <li class="form-row">
+                                    <label>Meddelande:</label>
+                                    <textarea id="input-message" class="text-area" name="message" cols="40" rows="8" placeholder="Frivilligt-Om ditt barn har någon sjukdom som vi borde veta om!"></textarea>
+                                </li>
+                                <li class="button-row text-right">
+                                    <input class="btn-submit" type="submit" value="submit" name="submit" />
+                                </li>
+                            </ol>
+                        </fieldset>
+                    </form>
+
+
+
+                </div>
+                <div id="footer">
+                     <div class="footerBox"> 
+                    <ul class="fotterOl">
+                        <p>Har du andra funderingar eller frågor:Maila till:</p>
+                        <li>ch.hagstrom@hotmail.com</li>
+                        <li>info@asedaif.com</li>
+                        <li>Ring: Christer 0703518405</li>
+
+                    </ul>
+
+
+                    <ul class="fotterOl">
+                        <p> Eller skicka ett vanligt brev</p>
+                        </br>
+                        <li> Åseda IF Fotboll </li>
+                        <li>Östra Esplanaden 14 36070 ÅSEDA</li>
+                    </ul>
+                 
+                </div>
+                </div>
+            </article>
+
+
+            <!--<script src="../script/jquery.js"></script> -->
         </div>
     </div>
 </body>

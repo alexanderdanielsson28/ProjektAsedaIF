@@ -39,9 +39,9 @@ var rssReader = {
 
     init : function(selector) {
 
-        containers = myGetElementsByClassName(selector);
+      var  containers = myGetElementsByClassName(selector);
 
-        for(i=0;i<containers.length;i++){
+        for(var i=0;i<containers.length;i++){
 
          
             var rssUrl = containers[i].getAttribute('rss_url');
